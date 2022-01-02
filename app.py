@@ -21,14 +21,16 @@ def scheduleprices():
 
 @app.route('/gallery')
 def gallery():
-	#return render_template("gallery.html")
-	return("this function is not ready yet")
+	return render_template("gallery.html")
 
 @app.route('/members')
 def members():
-	#return  render_template("members.html")
-	return("this function is not ready yet")
+	return  render_template("members.html")
 
 @app.route('/information')
 def information():
 	return render_template("schedule+prices.html")
+
+@app.route('/provincialteam')
+def provincialteam():
+	return render_template("provincialteam.html")
