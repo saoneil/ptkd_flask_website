@@ -34,3 +34,7 @@ def information():
 @app.route('/provincialteam')
 def provincialteam():
 	return render_template("provincialteam.html")
+
+@app.route('/studentresources')
+def studenresources():
+	return render_template("studentresources.html")
