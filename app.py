@@ -23,10 +23,6 @@ def scheduleprices():
 def gallery():
 	return render_template("gallery.html")
 
-@app.route('/members')
-def members():
-	return  render_template("members.html")
-
 @app.route('/information')
 def information():
 	return render_template("schedule+prices.html")
