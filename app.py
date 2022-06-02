@@ -34,3 +34,7 @@ def provincialteam():
 @app.route('/studentresources')
 def studenresources():
 	return render_template("studentresources.html")
+
+@app.route('/nsopen')
+def nsopen():
+	return render_template("nsopen.html")
